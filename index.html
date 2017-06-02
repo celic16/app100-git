@@ -1,0 +1,612 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+   <title>decima aplicacion</title>
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app10.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/> 
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/MINI-White.jpg','imagenes/images.jpg','imagenes/celular6.jpg','imagenes/celular7.png','imagenes/CONTRAPORTADA_LIBRO1.jpg','imagenes/CONTRAPORTADA_LIBRO3.jpg','imagenes/CONTRAPORTADA-LIBRO2.jpg','imagenes/CONTRAPORTADA_LIBRO4.jpg','imagenes/CONTRAPORTADA_LIBRO5.jpg','imagenes/CONTRAPORTADA_LIBRO6.jpg','imagenes/CONTRAPORTADA_LIBRO8.jpg','imagenes/CONTRAPORTADA_LIBRO9.jpg','imagenes/CONTRAPORTADA_LIBRO10.jpg','imagenes/CONTRAPORTADA_LIBRO11.jpg','imagenes/biodiversidad.gif','imagenes/ecologiaJ.jpg','imagenes/biodiv.jpg','imagenes/contaminacion.jpg','imagenes/tierrareciclaje.jpg','imagenes/ecolog.jpg','imagenes/Vsaloninternacionaldelhumor.jpg','imagenes/composiciones-de-color-verde.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+     <h1>Conciencia Ecologica</h1>
+     </div>
+<div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/biodiversidad_1.jpg" alt="biodiversidad (1)" title="biodiversidad (1)" id="wows1_0"/></li>
+		<li><img src="data1/images/biodiversidad.jpg" alt="biodiversidad" title="biodiversidad" id="wows1_1"/></li>
+		<li><img src="data1/images/composicionesdecolorverde.jpg" alt="composiciones-de-color-verde" title="composiciones-de-color-verde" id="wows1_2"/></li>
+		<li><img src="data1/images/contaminacion.jpg" alt="contaminacion" title="contaminacion" id="wows1_3"/></li>
+		<li><img src="data1/images/contaminacindelagua.jpg" alt="Contaminación-del-agua" title="Contaminación-del-agua" id="wows1_4"/></li>
+		<li><img src="data1/images/dia_internacional_de_la_tierra.jpg" alt="dia_internacional_de_la_tierra" title="dia_internacional_de_la_tierra" id="wows1_5"/></li>
+		<li><img src="data1/images/diamundial.jpg" alt="dia-mundial" title="dia-mundial" id="wows1_6"/></li>
+		<li><img src="data1/images/ecolog.jpg" alt="ecolog" title="ecolog" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/tierra.png" alt="http://wowslider.net/" title="tierra" id="wows1_8"/></a></li>
+		<li><img src="data1/images/vsaloninternacionaldelhumor.jpg" alt="Vsaloninternacionaldelhumor" title="Vsaloninternacionaldelhumor" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets">
+    <div>
+		<a href="#" title="biodiversidad (1)"><span><img src="data1/tooltips/biodiversidad_1.jpg" alt="biodiversidad (1)"/>1</span></a>
+		<a href="#" title="biodiversidad"><span><img src="data1/tooltips/biodiversidad.jpg" alt="biodiversidad"/>2</span></a>
+		<a href="#" title="composiciones-de-color-verde"><span><img src="data1/tooltips/composicionesdecolorverde.jpg" alt="composiciones-de-color-verde"/>3</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/contaminacion.jpg" alt="contaminacion"/>4</span></a>
+		<a href="#" title="Contaminación-del-agua"><span><img src="data1/tooltips/contaminacindelagua.jpg" alt="Contaminación-del-agua"/>5</span></a>
+		<a href="#" title="dia_internacional_de_la_tierra"><span><img src="data1/tooltips/dia_internacional_de_la_tierra.jpg" alt="dia_internacional_de_la_tierra"/>6</span></a>
+		<a href="#" title="dia-mundial"><span><img src="data1/tooltips/diamundial.jpg" alt="dia-mundial"/>7</span></a>
+		<a href="#" title="ecolog"><span><img src="data1/tooltips/ecolog.jpg" alt="ecolog"/>8</span></a>
+		<a href="#" title="tierra"><span><img src="data1/tooltips/tierra.png" alt="tierra"/>9</span></a>
+		<a href="#" title="Vsaloninternacionaldelhumor"><span><img src="data1/tooltips/vsaloninternacionaldelhumor.jpg" alt="Vsaloninternacionaldelhumor"/>10</span></a>
+	</div>
+    </div>
+    <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+  
+
+
+
+ 
+
+       
+       <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Biodiversidad</h1>
+       <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image51','','imagenes/biodiversidad.gif',1)"><img src="imagenes/bio.jpg" width="399" height="253" id="Image51"></a><br> </div>
+      </div>
+     </div>
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Ecología</h1>
+       <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image52','','imagenes/ecologiaJ.jpg',1)"><img src="imagenes/ecologia.jpg" width="345" height="336" id="Image52"></a> </div>
+      </div>
+     </div>     
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>CONCIENCIA ECOLOGICA</h2>
+             <p>¿Qué es la conciencia ecológica?</p>
+           </a>
+        </li>
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>DIA MUNDIAL DE LA TIERRA</h2>
+           </a>
+        </li>
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>DIA MUNDIAL DE LA BIODIVERSIDAD</h2>
+           </a>
+        </li>
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>CONTAMINACION AMBIENTAL</h2>
+             <p>¿Qué es la contaminacion ambiental?</p>
+           </a>
+        </li>
+        <li class="ui-fir ui-last-child">
+           <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>CONTAMINACION DEL AGUA</h2>
+             <p>¿Qué contamina el agua?</p>
+           </a>
+        </li>
+         <li class="ui-fir ui-last-child">
+           <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>RECICLAJE</h2>
+           </a>
+        </li>
+         <li class="ui-fir ui-last-child">
+           <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>CONSECUENCIAS DEL CALENTAMIENTO GLOBAL</h2>
+           </a>
+        </li>
+         <li class="ui-fir ui-last-child">
+           <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>DATOS DEL AUTOR</h2>
+           </a>
+        </li>
+        </ul>
+
+<br>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/carteleradiamundialdelatierra2.jpg" alt="CARTELERA-DIA-MUNDIAL-DE-LA-TIERRA-2" title="CARTELERA-DIA-MUNDIAL-DE-LA-TIERRA-2" id="wows2_0"/></li>
+		<li><img src="data2/images/conceptecologyflatdesign.jpg" alt="concept-ecology-flat-design" title="concept-ecology-flat-design" id="wows2_1"/></li>
+		<li><img src="data2/images/contaminacionambiental2.jpg" alt="contaminacion-ambiental-2" title="contaminacion-ambiental-2" id="wows2_2"/></li>
+		<li><img src="data2/images/depositphoto.jpg" alt="depositphoto" title="depositphoto" id="wows2_3"/></li>
+		<li><img src="data2/images/diamundial.jpg" alt="dia-mundial" title="dia-mundial" id="wows2_4"/></li>
+		<li><img src="data2/images/earth_day.png" alt="earth day" title="earth day" id="wows2_5"/></li>
+		<li><img src="data2/images/images.png" alt="images" title="images" id="wows2_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/planeta.jpg" alt="http://wowslider.com/" title="planeta" id="wows2_7"/></a></li>
+		<li><img src="data2/images/planetacontaminado.jpg" alt="Planeta-contaminado" title="Planeta-contaminado" id="wows2_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="CARTELERA-DIA-MUNDIAL-DE-LA-TIERRA-2"><span><img src="data2/tooltips/carteleradiamundialdelatierra2.jpg" alt="CARTELERA-DIA-MUNDIAL-DE-LA-TIERRA-2"/>1</span></a>
+		<a href="#" title="concept-ecology-flat-design"><span><img src="data2/tooltips/conceptecologyflatdesign.jpg" alt="concept-ecology-flat-design"/>2</span></a>
+		<a href="#" title="contaminacion-ambiental-2"><span><img src="data2/tooltips/contaminacionambiental2.jpg" alt="contaminacion-ambiental-2"/>3</span></a>
+		<a href="#" title="depositphoto"><span><img src="data2/tooltips/depositphoto.jpg" alt="depositphoto"/>4</span></a>
+		<a href="#" title="dia-mundial"><span><img src="data2/tooltips/diamundial.jpg" alt="dia-mundial"/>5</span></a>
+		<a href="#" title="earth day"><span><img src="data2/tooltips/earth_day.png" alt="earth day"/>6</span></a>
+		<a href="#" title="images"><span><img src="data2/tooltips/images.png" alt="images"/>7</span></a>
+		<a href="#" title="planeta"><span><img src="data2/tooltips/planeta.jpg" alt="planeta"/>8</span></a>
+		<a href="#" title="Planeta-contaminado"><span><img src="data2/tooltips/planetacontaminado.jpg" alt="Planeta-contaminado"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+  <h4>♡CUIDEMOS EL PLANETA♡</h4>
+ <img src="res/android/mdpi.png" width="55" height="55">
+ </div>
+   </div>
+   </div>
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1>Conciencia Ecológica</h1>
+  </div>
+  <div><center>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image56','','imagenes/ecolog.jpg',1)"><img src="imagenes/planeta.jpg" width="335" height="215" id="Image2"></a>
+  </center></div>
+  <div><center><img src="imagenes/large.gif" width="307" height="171"> </center></div>
+        <div data-role="content" align="center">
+             <div>
+               <h2>A partir del momento en que el hombre comenzó a apropiarse de la naturaleza para darle forma a sus necesidades y caprichos, los ecosistemas de todo el planeta dieron su respuesta ante este tipo de abusos, a través de consecuencias negativas como la contaminación y la pérdida de biodiversidad.
+Hoy en día podemos conocer, a través de los medios de comunicación, todas las noticias referentes al cambio climático. Pero ante la inevitable realidad ¿cuántos de nosotros nos sentimos responsables -y actuamos en consecuencia- por los daños que estamos causando al planeta?
+Justamente, tener conciencia ecológica es entender que somos dependientes de la naturaleza y responsables por su estado de conservación. Ignorar esta verdad equivale a autodestruirnos, porque al degradar el medio ambiente estamos empeorando nuestra calidad de vida y poniendo en peligro el futuro de nuestros descendientes.
+
+Al contrario de lo que se podría pensar, desarrollo económico y conciencia ecológica no tienen por qué ser antónimos. Se puede producir de manera sustentable, fomentar la generación de energías limpias, reducir y reciclar la basura y reutilizar un gran número de materiales que producirán nuevos productos útiles para el día a día del hombre moderno.
+
+Es cierto que la conciencia ecológica debe comenzar en el seno del hogar, pero debe extenderse a todos los ámbitos de nuestra existencia: simplemente porque todas nuestras acciones inciden -de manera positiva o negativa- sobre la naturaleza.</h2>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image63','','imagenes/composiciones-de-color-verde.jpg',1)"><img src="imagenes/medioambiente.jpg" width="322" height="255" id="Image63"></a> </div>
+  </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1>¿Cómo generar conciencia ecológica en los jóvenes?</h1>
+       <div>
+        <p>Infundir respeto por el medio ambiente a las generaciones más jóvenes es una obligación moral de los mayores, de la sociedad en general, ya sea en forma de políticas como mediante la enseñanza en los colegios o con el ejemplo en su entorno más próximo. No en vano, ellos son el futuro y de esa transmisión de valores dependerá el futuro del planeta.
+¿Pero, cómo hacerlo? Generar conciencia ecológica en los jóvenes va más allá de campañas puntuales que inviten a reciclar o de declaraciones en favor del medio ambiente de boca de sus ídolos. Aunque todo ayuda, en realidad sólo una educación que empiece en la más tierna infancia logrará el objetivo: que sean ciudadanos informados, con espíritu crítico, porque sólo entendiendo y amando a la naturaleza se contribuirá a su preservación.
+<center><img src="imagenes/Conciencia ecológica.jpg" width="215" height="214"></center> 
+Los primeros años son fundamentales. En el seno de la familia o en los colegios es donde se socializa al niño, el periodo en el que se desarrolla se personalidad y se le orienta para un mejor desarrollo. Los valores, los conocimientos y las actitudes que inculquen el respeto por los demás (lo que incluye la Naturaleza) se transmitirán a través de cuentos, actividades escolares y, de forma especial, a través de la convivencia familiar.
+**Dar ejemplo<br>
+**Reciclar es divertido<brr>
+**Conocer y amar la naturaleza<br></p>
+        <br>
+        <center>
+          <img src="imagenes/ecologiaJ.jpg" width="390" height="218">
+        </center>
+        <div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+   <a href="https://www.ecologiaverde.com/conciencia-ecologica/" data-role="button" id="beep">
+   <h6>Para leer mas sobre<br>
+   el tema da clic aqui<br></h6>
+   </a>
+   </li>
+   </ul>
+</div>
+</div>
+    </div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1>LAS CATÁSTROFES ECOLÓGICAS</h1>
+       <div>
+        <p>Infundir respeto por el medio ambiente a las generaciones más jóvenes es una obligación moral de los mayores, de la sociedad en general, ya sea en forma de políticas como mediante la enseñanza en los colegios o con el ejemplo en su entorno más próximo. No en vano, ellos son el futuro y de esa transmisión de valores dependerá el futuro del planeta.
+¿Pero, cómo hacerlo? Generar conciencia ecológica en los jóvenes va más allá de campañas puntuales que inviten a reciclar o de declaraciones en favor del medio ambiente de boca de sus ídolos. Aunque todo ayuda, en realidad sólo una educación que empiece en la más tierna infancia logrará el objetivo: que sean ciudadanos informados, con espíritu crítico, porque sólo entendiendo y amando a la naturaleza se contribuirá a su preservación.
+<center><img src="imagenes/tala.jpg" width="290" height="201"></center>
+Los primeros años son fundamentales. En el seno de la familia o en los colegios es donde se socializa al niño, el periodo en el que se desarrolla se personalidad y se le orienta para un mejor desarrollo. Los valores, los conocimientos y las actitudes que inculquen el respeto por los demás (lo que incluye la Naturaleza) se transmitirán a través de cuentos, actividades escolares y, de forma especial, a través de la convivencia familiar.
+**Dar ejemplo<br>
+**Reciclar es divertido<brr>
+**Conocer y amar la naturaleza<br></p>
+        <br>
+        <center>
+          <img src="imagenes/images.png" width="226" height="223">
+        </center></p>
+        </div>
+        </div>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+   <a href="http://www.iepe.org/2013/11/el-despertar-de-la-conciencia-ecologica-internacional/" data-role="button" id="beep">
+   <h6>Para leer mas sobre<br>
+   el tema da clic aqui<br></h6>
+   </a>
+   </li>
+   </ul>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion diez</h4>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Día mundial de la Tierra</h1>
+        </div>
+        <div><center>
+  <img src="imagenes/CARTELERA-DIA-MUNDIAL-DE-LA-TIERRA-2.jpg" width="364" height="225"></center></div>
+
+  <div data-role="content" align="center">
+             <div>
+               <h2>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.</h2>
+<center> <img src="imagenes/dia-mundial.jpg" width="217" height="203"> </center></div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Nuestro planeta Tierra en cifras</h1>
+       <div>
+       <center>
+        <p>★Surgió hace más de 4500 millones de años, junto con los demás planetas del sistema solar
+Mide 12713 km de diámetro de polo a polo, y 12756 por el Ecuador. Por ello tiene forma esférica, ligeramente achatada en los polos y ensanchada en el Ecuador.<br>
+★La superficie terrestre es de 510 millones de kilómetros cuadrados aproximadamente.<br>
+★El volúmen total de agua de la tierra se estima en 1420 millones de kilómetros cúbicos, incluyendo la contenida en ríos, lagos, hielo, océanos, atmósfera y el subsuelo.<br>
+★El volumen total de la tierra es de 1083 mil 320 millones de kilómetros cúbicos.<br>
+<center><img src="imagenes/earth day.png" width="240" height="249"></center>
+★El punto más alto de la tierra es el Monte Everest con 8.848 m. La mayor depresión es el Mar Muerto, un mar interior cuya superficie está a 399 m bajo el nivel del mar.<br>
+★Posee más de 7.000 millones de personas, la mitad de los cuales tiene menos de 25 años.<br>
+★Da un giro completo alrededor del sol en 365 días, 6 horas, 9 minutos y 9 segundos (aproximadamente un año).<br>
+★Gira sobre si misma en 23 horas, 56 minutos y 4 segundos (aproximadamente un día).<br>
+★Su velocidad promedio en el universo es de 30 km por segundo.</p></center>
+        <br>
+       </div>
+</div>
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>Acuerdos Mundiales para salvar el planeta</h1>
+       <div>
+       <center>
+        <p>La Comunidad Internacional reconoce este día la importancia de salvar el Planeta, a continuación algunos de los acuerdos mundiales para concebidos para ello:
+        <center><img src="imagenes/tierr.jpg" width="366" height="181"></center>
+ ✾Convención para la protección de la Flora, de la Fauna y de las bellezas escénicas naturales de los países de América (Washington,1941) que persigue conservar las especies y géneros de la flora y fauna americana, para evitar su extinción.<br>
+✾Convención sobre la Pesca y Conservación de los Recursos vivos de la Alta Mar (1961), sobre la base de la cooperación internacional, que persigue regular la explotación de los recursos vivos de Alta Mar.<br>
+✾Convención relativa a los Humedales de Importancia Internacional (RAMSAR, 1971) procura asegurar la conservación de los humedales, su flora y su fauna, armonizando las políticas nacionales previsoras mediante una acción internacional coordinada.<br>
+✾Convención sobre el Comercio Internacional de Especies Amenazadas (1977) donde se adoptan medidas encaminadas a proteger la flora y la fauna silvestre, mediante la cooperación internacional.<br>
+✾Convención sobre la Prohibición de Desarrollo y Almacenamiento de Armas Bacteriológicas Tóxicas (1978) que busca lograr progresos efectivos hacia un desarme general y completo que incluya la prohibición y eliminación de todos los tipos de armas de destrucción en masa.<br>
+✾Convención sobre el Comercio Internacional de Especies Amenazadas de Fauna y Flora Silvestre (1973/1979) que considera a la fauna y la flora como elementos irremplazables de los sistemas naturales de la tierra, y busca protegerlos de la explotación comercial, para las generaciones presentes y venideras.<br>
+<center><img src="imagenes/dia_internacional_de_la_tierra.jpg" width="312" height="231"></center> ✾Convenio de Viena para la Protección de la Capa de Ozono (1985) que busca proteger la salud humana y el ambiente de los efectos adversos resultantes de las modificaciones de la Capa de Ozono.<br>
+✾Protocolo de Montreal Realativo a Sustancias Agotadoras de la Capa de Ozono (1987), con el cual se adoptan medidas preventivas para controlar equitativamente el total de emisiones mundiales de las sustancias que la agotan, con el objetivo final de eliminarlas.<br>
+✾Convenio de Basilea sobre el Control de los Movimientos Transfronterizos de los Desechos Peligrosos y su eliminación (1989), que persigue la protección de la salud humana y el ambiente contra los efectos nocivos que pueden derivarse de la generación y manejo de los desechos peligrosos y otros desechos.<br></p></center>
+       </div>
+</div>
+           <div data-role="main" class="ui-content" align="center">
+ <div style="width:50%;"> <a href="http://www.excelsior.com.mx/global/2017/04/22/1159123" data-role="button">
+   <h6>Link para seguir leyendo</h6>
+ </a> </div>
+</div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion diez</h4>
+        </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Día mundial de la biodiversidad</h1>
+        </div>
+           <div><center>
+             <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image51','','imagenes/biodiv.jpg',1)"><img src="imagenes/Dia.jpg" width="332" height="315" id="Image"></a>
+  </center></div>
+    <div><center>
+      <img src="imagenes/bi.jpg" width="362" height="198">
+    </center></div>
+           <div data-role="content" align="center">
+             <div>
+               <h2>El día 22 de mayo se celebra el Día Internacional de la Biodiversidad. Pero, además, también es el Año Internacional de la Diversidad Biológica. Se trata de concienciar a la población de lo esencial que es preservar todas las especies animales y vegetales que aún existen en nuestro planeta de modo que se mantenga el equilibrio en el medio ambiente. La seguridad alimentaria, la salud y el acceso a un agua potable y de calidad dependen de la diversidad biológica. El lema de este año es “La Diversidad Biológica para el Desarrollo y el Alivio a la Pobreza”.
+
+La Unión Internacional para la Conservación de la Naturaleza (UICN) elabora, desde 1963, el conocido como Libro Rojo: un listado de las especies animales y vegetales que pueblan el planeta Tierra. Existen siete categorías de especies en el listado: preocupación menor, casi amenazada, vulnerable, en peligro, en peligro crítico, extinta en estado silvestre y extinta. Las especies en peligro crítico de extinción son las que han sufrido una disminución de su población de más de un 80% en diez años o en tres generaciones, o bien ser una población de menos de 250 individuos maduros.
+<center><img src="imagenes/biod.jpg" width="308" height="226"></center> 
+Hay más de 1.500 animales a punto de extinguirse y otras tantas plantas. Unas 17.000 especies están amenazadas en menor grado. Aproximadamente, un 12% de las especies de aves, un 23% de mamíferos, un 25% de coníferas y un 32% de anfibios está actualmente en peligro de extinción, y es posible que los organismos acuáticos se enfrenten en estos momentos a un peligro de extinción similar. Se estima que se extinguen cada día entre 50 y 300 especies. Es verdad que la extinción de especies forma parte del curso natural de la Tierra. Sin embargo, durante los últimos cien años el hombre ha acelerado el ritmo de extinción al menos 100 veces respecto al ritmo natural.
+
+Muchas organizaciones y países realizan actos para conmemorar este Día de la Biodiversidad. La Sociedad Española de Ornitología (SEO/Birdlife), entre otros muchos grupos e instituciones, organiza actividades educativas en veinte lugares naturales de España, como, entre otros, el Delta del Ebro, la Laguna de Zoñar en Córdoba, en el Centro de Visitantes de las Tablas de Daimiel, en el Parque Natural de las Hoces del Duratón o el Embalse de Cubillas en Granada.</h2>
+             </div>
+           </div>
+            <div data-role="collapsible" data-content-theme="false">
+  <h1>Importancia de la biodiversidad</h1>
+       <div>
+        <p>El valor esencial y fundamental de la biodiversidad reside en que es resultado de un proceso histórico natural de gran antigüedad. Por esta sola razón, la diversidad biológica tiene el inalienable derecho de continuar su existencia. El hombre y su cultura, como producto y parte de esta diversidad, debe velar por protegerla y respetarla.
+
+Además la biodiversidad es garante de bienestar y equilibrio en la biosfera. Los elementos diversos que componen la biodiversidad conforman verdaderas unidades funcionales, que aportan y aseguran muchos de los “servicios” básicos para nuestra supervivencia.
+<center><img src="imagenes/biodi.jpg" width="299" height="164">
+  <img src="imagenes/BIODIVERSIDAD (2).jpg" width="240" height="163">
+</center>
+Finalmente desde nuestra condición humana, la diversidad también representa un capital natural.13 El uso y beneficio de la biodiversidad ha contribuido de muchas maneras al desarrollo de la cultura humana, y representa una fuente potencial para subvenir a necesidades futuras.
+
+Considerando la diversidad biológica desde el punto de vista de sus usos presentes y potenciales y de sus beneficios, es posible agrupar los argumentos en tres categorías principales.<center><img src="imagenes/biodiversidad (1).jpg" width="220" height="225"></center></p>
+       </div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+   <li class="ui-first-child ui-last-child">
+   <a href="http://www.unesco.org/new/es/unesco/events/prizes-and-celebrations/celebrations/international-days/international-day-for-biological-diversity-2016/" data-role="button" id="beep">
+   <h6><em>Para seguir leyendo mas sobre<br>
+    el tema da clic aqui<br></em></h6>
+   </a>
+   </li>
+   </ul>
+</div>
+</div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion diez</h4>
+        </div>
+</div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Contaminacion Ambiental</h1>
+        </div>
+        <div><center>
+         <img src="imagenes/contaminacion-aire.jpg" width="310" height="219"></center></div>
+        <div><center>
+  <img src="imagenes/contamina.jpg" width="364" height="235"></center></div>
+
+  <div data-role="content" align="center">
+             <div>
+               <h2>Se denomina contaminación ambiental a la presencia en el ambiente de cualquier agente (físico, químico o biológico) o bien de una combinación de varios agentes en lugares, formas y concentraciones tales que sean o puedan ser nocivos para la salud, la seguridad o para el bienestar de la población, o bien, que puedan ser perjudiciales para la vida vegetal o animal, o impidan el uso normal de las propiedades y lugares de recreación y goce de los mismos. La contaminación ambiental es también la incorpo- ración a los cuerpos receptores de sustancias sólidas, liquidas o gaseosas, o mezclas de ellas, siempre que alteren desfavorablemente las condiciones naturales del mismo, o que puedan afectar la salud, la higiene o el bienestar. A medida que aumenta el poder del hombre sobre la naturaleza y aparecen nuevas necesidades como consecuencia de la vida en sociedad, el medio ambiente que lo rodea se deteriora cada vez más. El comportamiento social del hombre, que lo condujo a comunicarse por medio del lenguaje, que posteriormente formó la cultura humana, le permitió diferenciarse de los demás seres vivos. Pero mientras ellos se adaptan al medio ambiente para sobrevivir, el hombre adapta y modifica ese mismo medio según sus necesidades.
+El progreso tecnológico, por una parte y el acelerado crecimiento demográfico, por la otra, producen la alteración del medio, llegando en algunos casos a atentar contra el equilibrio biológico de la Tierra. No es que exista una incompatibilidad absoluta entre el desarrollo tecnológico, el avance de la civilización y el mantenimiento del equilibrio ecológico, pero es importante que el hombre sepa armonizarlos. Para ello es necesario que proteja los recursos renovables y no renovables y que tome conciencia de que el saneamiento del ambiente es fundamental para la vida sobre el planeta La contaminación es uno de los problemas ambientales más importantes que afectan a nuestro mundo y surge cuando se produce un desequilibrio, como resultado de la adición de cualquier sustancia al medio ambiente, en cantidad tal, que cause efectos adversos en el hombre, en los animales, vegetales o materiales expuestos a dosis que sobrepasen los niveles aceptables en la naturaleza. La contaminación puede surgir a partir de ciertas manifestaciones de la naturaleza (fuentes naturales) o bien debido a los diferentes procesos productivos del hombre (fuentes antropogénicas) que conforman las actividades de la vida diaria.Las fuentes que generan contaminación de origen antropogénico más importantes son: industriales (frigoríficos, mataderos y curtiembres, actividad minera y petrolera), comerciales (envolturas y empaques), agrícolas (agroquímicos), domiciliarias (envases, pañales, restos de jardinería) y fuentes móviles (gases de combustión de vehículos). Como fuente de emisión se entiende el origen físico o geográfico donde se produce</h2>
+             
+</div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Cambios climáticos por la contaminación ambiental</h1>
+       <div>
+        <p>El cambio climático, inducido por la actividad del ser humano, supone que la temperatura media del planeta aumentó 0,6 grados en el siclo xx. La temperatura media del planeta subirá entre 1,4 y 5,8 grados entre 1990 y 2100. En el mismo período, el nivel medio del mar aumentará entre 0,09 y 0,88 metros. El aumento del siclo XX no se ha dado en ninguno de los últimos diez siglos. El cambio climático acelerará la aparición de enfermedades infecciosas, como las tropicales, que encontrarán condiciones propicias para su expansión, incluso en zonas del Norte. La Organización Mundial de la Salud advirtió que es probable que los cambios locales de temperaturas y precipitaciones creen condiciones más favorables para los insectos transmisores de enfermedades infecciosas, como la malaria o el dengue. La atmósfera actúa como una trampa térmica y este efecto invernadero aumenta con la concentración de gases como el CO2. La actividad humana, la deforestación y, sobre todo, la quema de combustibles fósiles incrementan la presencia de este gas en el aire. La concentración atmosférica de CO2 se ha incrementado en un 31% desde 1750. La cubierta de nieve y hielo ha disminuido en un 10% desde finales de los 60. Igualmente, se observa una reducción de los glaciares a lo largo del siclo XX. Ha aumentado la temperatura superficial del océano y el nivel del mar entre 0,1 y 0,2 m. en los siglos (y que irá en aumento amenazando de inundar a ciertos países).<center> <img src="imagenes/depositphoto.jpg" width="277" height="189"> </center>
+         También se registran cambios en el régimen de lluvias, en la cubierta de nubes y en el patrón de ocurrencia de fenómenos como la corriente cálida de El Niño, que se ha vuelto más frecuente. Tal aumento puede conducir a una mayor incidencia de enfermedades transmitidas por el agua, como el cólera, y de las relacionadas con toxinas, como el envenenamiento por mariscos. La única forma de frenar la modificación del clima es reducir drásticamente las emisiones de gases invernadero, como el CO2. Es necesario presionar a los gobiernos y empresas mundiales, básicamente, para que reduzcan las emisiones de CO2.La incineración de los residuos es una fuente muy importante de contaminación ambiental pues emite sustancias de elevada toxicidad, a la atmósfera y genera cenizas también tóxicas. Al contaminar, pues, el aire que respiramos, el agua que bebemos y nuestros alimentos, la incineración afecta gravemente a nuestra salud. Entre los compuestos tóxicos destacan -principalmente- metales pesados y las dioxinas. Estas últimas son extremadamente tóxicas, persistentes y acumulativas en toda la cadena alimentaría. Son sustancias cancerígenas y que alteran los sistemas inmunitario, hormonal, reproductor y nervioso. En consecuencia, las empresas y las Administraciones deben invertir sus esfuerzos económicos y personales en desarrollar otras alternativas.</p>
+        <br>
+       </div>
+</div>
+           <div data-role="main" class="ui-content" align="center">
+ <div style="width:50%;"> <a href="http://www.monografias.com/trabajos69/contaminacion-ambiental/contaminacion-ambiental.shtml#ixzz4igcKZHQX" data-role="button">
+   <h6><em>Link para seguir leyendo</em></h6>
+ </a> </div>
+</div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion diez</h4>
+        </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Contaminación del agua</h1>
+        </div>
+        <div><center>
+          <img src="imagenes/Contaminación-del-agua.jpg" width="299" height="190">
+  </center></div>
+        <div><center>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image56','','imagenes/contaminacion.jpg',1)"><img src="imagenes/contami.jpg" width="234" height="249" id="Image56"></a> </center></div>
+
+  <div data-role="content" align="center">
+             <div>
+               <h2>Las fuentes naturales de agua que disponemos son: el agua de lluvia, ríos, lagos, mares y aguas subterráneas. Se encuentra en muchas rocas y piedras durísimas y también en la atmósfera en forma de nubes o nieblas. Desde siempre el hombre ha volcado sus desechos en las aguas. En condiciones normales los ríos pueden auto depurarse: las aguas arrastran los desechos hacia los océanos, las bacterias utilizan el oxígeno disuelto en las aguas y degradan los compuestos orgánicos, que a su vez, son consumidas por los peces y las plantas acuáticas de volviendo el oxígeno y el carbono a la biosfera. Pero a medida que la humanidad fue progresando, esto se hace cada vez más difícil. Las industrias concentran miles y miles de personas en su entorno (como lo podemos apreciar en la zona del Gran Buenos Aires. Muchas veces los sistemas se encuentran saturados de desechos, y las industrias vuelcan productos que no pueden ser degradados por las bacterias. Todo esto hace que el contenido de oxígeno disminuya drásticamente, y que el río ya no tenga capacidad para mantener la vida en él, convirtiéndose en una cloaca de varios kilómetros. Su peligro aumenta si se mueve con lentitud ( este es el caso del Riachuelo).Otro peligro es la contaminación termal. Las grandes usinas eléctricas emplean agua como refrigerante, esto hace que las aguas de los ríos eleven su temperatura, provocando cambios en los procesos biológicos y, por lo tanto, se destruye la vida existente en ellos.
+El agua es un elemento vital para la alimentación, por eso requiere una mayor higiene. Hay exigencias que están siendo cada vez menos satisfechas, por su contaminación, lo que reduce la cantidad y calidad del agua disponibles, como también sus fuentes naturales.El agua potable, para que pueda ser usada para fines alimenticios, debe estar totalmente limpia, ser insípida, inodora e incolora, y tener una temperatura aproximada de 15º C; no debe contener bacterias, virus, parásitos u otros gérmenes patógenos que provoquen enfermedades. Para lograr la calidad de agua potable son necesarios una cantidad de procesos de purificaciones agua pura es un recurso renovable, sin embargo puede llegar a estar tan contaminada por las actividades humanas, que ya no sea útil, sino más bien nociva.
+Contaminación Del Océano.</h2>
+             
+</div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>¿Qué contamina el agua?</h1>
+       <div>
+        <p>Agentes patógenos.- Bacterias, virus, protozoarios, parásitos que entran al agua proveniente de desechos orgánicos.
+Desechos que requieren oxígeno.- Los desechos orgánicos pueden ser descompuestos por bacterias que usan oxígeno para biodegradarlos. Si hay poblaciones grandes de estas bacterias, pueden agotar el oxígeno del agua, matando así las formas de vida acuáticas.
+Sustancias químicas inorgánicas.- Ácidos, compuestos de metales tóxicos (Mercurio, Plomo), envenenan el agua.
+Los nutrientes vegetales pueden ocasionar el crecimiento excesivo de plantas acuáticas que después mueren y se descomponen, agotando el oxígeno del agua y de este modo causan la muerte de las especies marinas (zona muerta).
+Sustancias químicas orgánicas.- Petróleo, plásticos, plaguicidas, detergentes que amenazan la vida.
+Sedimentos o materia suspendida.- Partículas insolubles de suelo que enturbian el agua, y que son la mayor fuente de contaminación.
+Sustancias radiactivas que pueden causar defectos congénitos y cáncer.
+Calor.- Ingresos de agua caliente que disminuyen el contenido de oxígeno y hace a los organismos acuáticos muy vulnerables.
+Fuentes Puntuales Y No Puntuales
+Las fuentes puntuales descargan contaminantes en localizaciones específicas a través de tuberías y alcantarillas. Ej. Fábricas, plantas de tratamiento de aguas negras, minas, pozos petroleros, etc.
+Las fuentes no puntuales son grandes áreas de terreno que descargan contaminantes al agua sobre una región extensa. Ej. Vertimiento de sustancias químicas, tierras de cultivo, lotes para pastar ganado, construcciones, tanques sépticos.
+Contaminación De Ríos Y LagosLas corrientes fluviales debido a que fluyen se recuperan rápidamente del exceso de calor y los desechos degrádales. Esto funciona mientras no haya sobrecarga de los contaminantes, o su flujo no sea reducido por sequía, represado, etc.</p>
+        <br>
+       </div>
+</div>
+           <div data-role="main" class="ui-content" align="center">
+ <div style="width:50%;"> <a href="http://www.monografias.com/trabajos69/contaminacion-ambiental/contaminacion-ambiental.shtml#ixzz4igcKZHQX" data-role="button">
+   <h6><em>Link para seguir leyendo</em></h6>
+ </a> </div>
+</div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion diez</h4>
+        </div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Reciclaje</h1>
+        </div>
+        <div><center>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image57','','imagenes/tierrareciclaje.jpg',1)"><img src="imagenes/reciclaje.jpg" width="277" height="273" id="Image57"></a>
+  </center></div>
+
+  <div data-role="content" align="center">
+             <div>
+               <h2>El reciclaje es un proceso cuyo objetivo es convertir desechos en nuevos productos o en materia para su posterior utilización.
+Gracias al reciclaje se previene el desuso de materiales potencialmente útiles, se reduce el consumo de nueva materia prima, además de reducir el uso de energía, la contaminación del aire (a través de la incineración) y del agua (a través de los vertederos), así como también disminuir las emisiones de gases de efecto invernadero en comparación con la producción de plásticos.
+<center> <img src="imagenes/tierra.png" width="186" height="198"></center>
+ El reciclaje es un componente clave en la reducción de desechos contemporáneos y es el tercer componente de las 3R (“Reducir, Reciclar, Reutilizar”).
+Los materiales reciclables son muchos, e incluyen todo el papel y cartón, el vidrio, los metales ferrosos y no ferrosos, algunos plásticos, telas y textiles, maderas y componentes electrónicos. En otros casos no es posible llevar a cabo un reciclaje debido a la dificultad técnica o alto coste del proceso, de modo que suele reutilizarse el material o los productos para producir otros materiales y se destinan a otras finalidades, como el aprovechamiento energético.
+También es posible realizar un salvamento de componentes de ciertos productos complejos, ya sea por su valor intrínseco o por su naturaleza peligrosa.</h2>
+             
+</div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>¿Cómo podemos reciclar?</h1>
+       <div>
+        <p>La cadena de reciclaje está dividida en tres partes o en tres etapas:
+<br>
+<br>
+**Etapa 1 del reciclaje
+<br>
+Recolección de residuos: Las operaciones de reciclaje de residuos comienzan con la recogida de los residuos.
+Los residuos no reciclables son incinerados o enterrados en vertederos. Los residuos recogidos para el reciclaje se preparan para su posterior transformación. La recolección se organiza con ese fin.
+Como resultado de la recolección, los residuos, ordenados o no, son enviados a un centro de clasificación en el que, mediante diferentes operaciones, son ordenados para optimizar su procesamiento. Una de esas operaciones es la manual.
+<br>
+<br>
+**Etapa 2 del reciclaje
+<br>
+Transformación: Una vez clasificados, los residuos pasan a las usinas que serán las encargadas de su transformación. Están integrados en la cadena de procesamiento que les es específica. Entran en la cadena en forma de residuos y salen en forma de material listo para usar.
+<br>
+<br>
+**Etapa 3 del reciclaje
+<br>
+Comercialización y consumo: Una vez transformados, los productos acabados del reciclado se usan para la fabricación de productos nuevos que, a su vez, serán ofrecidos a los consumidores y consumidos. Para ser arrojados, recuperados y reciclados nuevamente.
+El reciclaje es una contribución importante en la disminución de las cantidades de residuos que deben eliminarse en vertederos, por incineración o por otras vías. Por este motivo, el reciclaje es necesario para luchar así contra el aumento de los residuos.<center><img src="imagenes/concept-ecology-flat-design.jpg" width="200" height="193"></center></p>
+        <br>
+       </div>
+</div>
+           <div data-role="main" class="ui-content" align="center">
+ <div style="width:50%;"> <a href="http://elblogverde.com/como-reciclar/" data-role="button">
+   <h6><em>Link para seguir leyendo</em></h6>
+ </a> </div>
+</div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion diez</h4>
+        </div>
+</div>
+
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Consecuencias del calentamiento global</h1>
+        </div>
+        <div>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image59','','imagenes/Vsaloninternacionaldelhumor.jpg',1)"><img src="imagenes/contaminacion.jpg" width="332" height="261" id="Image59"></a></div>
+<div data-role="content" align="center">
+             <div>
+               <h2>Sequías, huracanes, hambre, pobreza y destrucción: estas son algunas de las terribles consecuencias que el calentamiento global provoca en nuestro planeta. Y en nuestra mano está participar activamente para frenar sus efectos si queremos que las siguientes generaciones hereden un mundo tal y como lo conocemos hoy. O mejor.
+
+Proteger el medio ambiente es importantísimo. Hoy queremos explicarte cuáles son 10 de los efectos más importantes del calentamiento global, para que tomes conciencia de los niveles a que afecta.</h2>
+             
+</div>
+  </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>¿Qué consecuencias tiene el calentamiento global?</h1>
+       <div>
+        <p>1. Temperaturas más cálidas
+La acumulación de gases contaminantes hace que las temperaturas aumenten cada vez más y que los climas cambien: esto provoca sequías y, además, aumenta el riesgo de incendios que conllevan la deforestación y la desertización del planeta. 
+         <center></center> En 2012, los países del Sahel, en el norte de África, sufrieron una crisis alimentaria que afectó a unos 18 millones de <img src="imagenes/Planeta-contaminado.jpg" width="243" height="237">personas debido a la escasez de lluvias. Los efectos de la sequía no son nuevos en esta zona, que viene sufriendo sequías recurrentes de forma periódica pero sí lo son la intensidad y la frecuencia de las mismas, que se han incrementado durante la última década como consecuencia del aumento de las temperaturas en el planeta. <br>
+<br>
+2. Tormentas más intensas
+El hecho de que las temperaturas sean más altas hace que las lluvias sean menos frecuentes, pero que sean más intensas; por tanto, el nivel de inundaciones y su gravedad también irán en aumento.
+<br>
+<br>
+3. Propagación de enfermedades
+Un cambio de temperatura de varios grados puede hacer que la zona templada se haga más acogedora a la propagación de determinadas enfermedades. De esta manera, pueden empezar a darse casos de mal de Chagas, el dengue u otras enfermedades que están olvidadas en los países desarrollados y en zonas que tradicionalmente han sido más frías. 
+Este hecho afecta también a los países en desarrollo. Un estudio de casos en Etiopía realizado por científicos de las universidades de Denver (UD) y Michigan (UM), concluyó que el aumento de un solo grado en la temperatura del ambiente tiene como consecuencia el desarrollo de 3 millones de casos de malaria más en Etiopía en pacientes de menos de 15 años.
+<br>
+<br>
+4. Olas de calor más fuertes
+El calentamiento global del planeta producido por la quema acelerada de combustibles fósiles agotables ha sido muy intenso en el Polo Norte. Esto hace que el Polo Norte esté hoy mucho más caliente que hace cincuenta años. La salud e incluso la vida de miles de personas pueden verse en riesgo debido al aumento de las olas de calor, tanto en lo que se refiere a frecuencia como a intensidad.
+<br>
+<center><img src="imagenes/contaminacion-ambiental-aire.jpg" width="248" height="170"></center>
+ <br>
+5. Derretimiento de los glaciares
+Océanos con temperaturas más altas son océanos que derriten el hielo de los casquetes polares: esto significa que aumenta el nivel del mar. 
+Los efectos de alcance global incluirán cambios sustanciales en la disponibilidad de agua para beber y para riego, así como un aumento de los niveles del mar, cambios en los patrones de circulación del agua en los océanos, y la amenaza a la supervivencia de especies de flora y fauna que sobreviven en dichos ecosistemas.</p>
+        <br>
+       </div>
+</div>
+           <div data-role="main" class="ui-content" align="center">
+ <div style="width:50%;"> <a href="http://blog.oxfamintermon.org/10-consecuencias-del-calentamiento-global/" data-role="button">
+   <h6><em>Link para seguir leyendo</em></h6>
+ </a> </div>
+</div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion diez</h4>
+        </div>
+</div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+          <h1>Datos del desarrollador</h1>
+        </div>
+<div data-role="content" align="center">
+             <div>
+               <h2>Nombre:<br>
+               CELIC VAQUERO AGUILAR<br><br>
+               Grupo:<br>
+               "E"<br><br>
+               Semestre:<br>
+               CUARTO<br><br>
+               Sub-módulo:<br>
+               DESARROLLA APLICACIONES MÓVILES(DAM)<br><br>
+               Nombre del docente:<br>
+               Lic. JOSÉ ANTONIO GÓMEZ HERNÁNDEZ
+             </h2>
+             
+</div>
+  </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+          <h4>Aplicacion diez</h4>
+        </div>
+</div>
+
+</body>
+</html>
+
